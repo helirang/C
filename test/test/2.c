@@ -7,7 +7,7 @@
 int main(void)
 {
 	int n=0;
-	printf("정수를 입력하세요.");
+	printf(" 0 <= number < 10.");
 	scanf("%d", &n);
 
 	int H = 0, J = 5, K = 3;
