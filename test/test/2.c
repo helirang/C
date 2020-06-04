@@ -7,7 +7,7 @@
 int main(void)
 {
 	int n=0;
-	printf(" 0 <= number < 10.");
+	printf(" 0 <= number < 10");
 	scanf("%d", &n);
 
 	int H = 0, J = 5, K = 3;
@@ -77,4 +77,9 @@ int main(void)
 			printf("\n");
 		}
 	}
-}//
+
+	else
+	{
+		printf(" out of number ");
+	}
+}
